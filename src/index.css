@@ -1,0 +1,50 @@
+:root {
+  --turquoise: #3cc4bf;
+  --purple: #dda0dd;
+  --white: aliceblue;
+  --ivory: #fffff0;
+}
+
+* {
+  background-color: var(--ivory);
+}
+
+body {
+  text-align: center;
+}
+
+.header,
+.footer {
+  color: var(--purple);
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#taskTable {
+  border: solid 3px;
+  padding: 20px 100px;
+  list-style: none;
+  width: 50%;
+  margin: 70px auto;
+}
+
+#taskTable li {
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#remove-btn {
+  color: var(--white);
+  background-color: var(--purple);
+  margin: 10px;
+}
+
+.function {
+  background-color: var(--purple);
+  color: var(--white);
+  margin: 20px;
+}
